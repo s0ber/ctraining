@@ -70,8 +70,7 @@ void trim(char s[])
   int k;
   k = 0;
 
-  for (i = startpos; i < endpos; ++i)
-  {
+  for (i = startpos; i < endpos; ++i) {
     newline[k] = s[i];
     ++k;
   }
